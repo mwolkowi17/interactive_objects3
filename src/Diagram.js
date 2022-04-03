@@ -3,7 +3,7 @@ import { useGLTF } from '@react-three/drei'
 
 export function ModelD(props) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/diagram_1.gltf')
+  const { nodes } = useGLTF('/diagram_1.gltf')
   return (
     <group ref={group} {...props} dispose={null}>
       <primitive castShadow receiveShadow object={nodes.Obj_table_storage1}
@@ -74,6 +74,110 @@ export function ModelD(props) {
         translateOnAxis={nodes.Rectangle6.translation}
         rotation={nodes.Rectangle6.rotation}
       />
+
+      <primitive castShadow receiveShadow object={nodes.one}
+        scale={nodes.one.scale}
+        translateOnAxis={nodes.one.translation}
+        rotation={nodes.one.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.oneb}
+        scale={nodes.oneb.scale}
+        translateOnAxis={nodes.oneb.translation}
+        rotation={nodes.oneb.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.two}
+        scale={nodes.two.scale}
+        translateOnAxis={nodes.two.translation}
+        rotation={nodes.two.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.four}
+        scale={nodes.four.scale}
+        translateOnAxis={nodes.four.translation}
+        rotation={nodes.four.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.five}
+        scale={nodes.five.scale}
+        translateOnAxis={nodes.five.translation}
+        rotation={nodes.five.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.eight}
+        scale={nodes.eight.scale}
+        translateOnAxis={nodes.eight.translation}
+        rotation={nodes.eight.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.MyText}
+        scale={nodes.MyText.scale}
+        translateOnAxis={nodes.MyText.translation}
+        rotation={nodes.MyText.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.MyText1}
+        scale={nodes.MyText1.scale}
+        translateOnAxis={nodes.MyText1.translation}
+        rotation={nodes.MyText1.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.MyText2}
+        scale={nodes.MyText2.scale}
+        translateOnAxis={nodes.MyText2.translation}
+        rotation={nodes.MyText2.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.MyText3}
+        scale={nodes.MyText3.scale}
+        translateOnAxis={nodes.MyText3.translation}
+        rotation={nodes.MyText3.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.MyText4}
+        scale={nodes.MyText4.scale}
+        translateOnAxis={nodes.MyText4.translation}
+        rotation={nodes.MyText4.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.MyText5}
+        scale={nodes.MyText5.scale}
+        translateOnAxis={nodes.MyText5.translation}
+        rotation={nodes.MyText5.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.MyText6}
+        scale={nodes.MyText6.scale}
+        translateOnAxis={nodes.MyText6.translation}
+        rotation={nodes.MyText6.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.MyText7}
+        scale={nodes.MyText7.scale}
+        translateOnAxis={nodes.MyText7.translation}
+        rotation={nodes.MyText7.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.MyText8}
+        scale={nodes.MyText8.scale}
+        translateOnAxis={nodes.MyText8.translation}
+        rotation={nodes.MyText8.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.Arrow1}
+        scale={nodes.Arrow1.scale}
+        translateOnAxis={nodes.Arrow1.translation}
+        rotation={nodes.Arrow1.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.Arrow2}
+        scale={nodes.Arrow2.scale}
+        translateOnAxis={nodes.Arrow2.translation}
+        rotation={nodes.Arrow2.rotation}
+      />
+
+
 
 
     </group>
