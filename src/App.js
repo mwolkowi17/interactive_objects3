@@ -5,17 +5,18 @@ import { Canvas} from '@react-three/fiber'
 import { OrbitControls, Html } from '@react-three/drei'
 
 
-import { Model2 } from './Model2'
-import { Model3 } from './Model3'
-import { Model4 } from './Model4'
-import { Model5 } from './Model5'
-import { Model6 } from './Model6'
-import { Model7 } from './Model7'
+//import { Model2 } from './Model2'
+//import { Model3 } from './Model3'
+//import { Model4 } from './Model4'
+//import { Model5 } from './Model5'
+//import { Model6 } from './Model6'
+//import { Model7 } from './Model7'
 import { Strips1 } from './Strips'
-import { Shapes } from './Shapes'
-import { Arrows1 } from './Arrows'
-import { Text1 } from './Text'
-import { Numbers } from './Numbers'
+//import { Shapes } from './Shapes'
+//import { Arrows1 } from './Arrows'
+//import { Text1 } from './Text'
+//import { Numbers } from './Numbers'
+import { ModelD } from './Diagram'
 
 
 
@@ -29,7 +30,7 @@ export default function App() {
 
   return (
 
-    <Canvas camera={{ fov: 75, near: 0.1, far: 80, position: [-10, 6, 30] }}>
+    <Canvas camera={{ fov: 75, near: 0.1, far: 1000, position: [-10, 6, 30] }}>
       <OrbitControls
         maxPolarAngle={Math.PI / 2}
         maxDistance={40}
@@ -40,7 +41,8 @@ export default function App() {
 
 
         <Strips1 position={[0, 0, 0]} />
-
+        <ModelD position={[0, 0, 0]}  />
+{/*
         <Shapes position={[0, 0, 0]} />
         <Arrows1 position={[0, 0, 0]} />
         <Text1 position={[0, 0, 0]} />
@@ -51,7 +53,7 @@ export default function App() {
         <Model5 position={[0, 0, 0]} />
         <Model6 position={[0, 0, 0]} />
         <Model7 position={[0, 0, 0]} />
-
+  */}
       </Suspense>
     </Canvas>
   )
