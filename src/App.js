@@ -16,30 +16,15 @@ export default function App() {
 
   return (
 
-    <Canvas camera={{ fov: 75, near: 0.1, far: 1000, position: [-4, 6, 6] }}>
+    <Canvas camera={{ fov: 75, near: 0.1, far: 80, position: [-10, 6, 30] }}>
       <OrbitControls
         maxPolarAngle={Math.PI / 2}
         maxDistance={40}
       />
       <Suspense fallback={<Loader />}>
         <ambientLight />
-        {/*} <pointLight position={[5, 10, 20]} />*/}
-
-
         <Strips1 position={[0, 0, 0]} />
-        <ModelD position={[0, -3, 0]} rotation={[0,Math.PI*3.6,0]} />
-{/*
-        <Shapes position={[0, 0, 0]} />
-        <Arrows1 position={[0, 0, 0]} />
-        <Text1 position={[0, 0, 0]} />
-        <Numbers position={[0, 0, 0]} />
-        <Model2 position={[0, 0, 0]} />
-        <Model3 position={[0, 0, 0]} />
-        <Model4 position={[0, 0, 0]} />
-        <Model5 position={[0, 0, 0]} />
-        <Model6 position={[0, 0, 0]} />
-        <Model7 position={[0, 0, 0]} />
-  */}
+        <ModelD position={[-4, -4.5, 6]} rotation={[0,Math.PI*3.75,0]} scale={[2,2,2]} />
       </Suspense>
     </Canvas>
   )

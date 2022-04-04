@@ -1,42 +1,68 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function ModelD(props) {
   const group = useRef()
   const { nodes } = useGLTF('/diagram_1.gltf')
+  const [hovered, setHovered] = useState(false)
+  useEffect(() => {
+    document.body.style.cursor = hovered ? 'pointer' : 'auto'
+  }, [hovered])
+
   return (
     <group ref={group} {...props} dispose={null}>
       <primitive castShadow receiveShadow object={nodes.Obj_table_storage1}
         scale={nodes.Obj_table_storage1.scale}
         translateOnAxis={nodes.Obj_table_storage1.translation}
-        rotation={nodes.Obj_table_storage1.rotation} />
+        rotation={nodes.Obj_table_storage1.rotation}
+      /* onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}*/
+      />
 
       <primitive castShadow receiveShadow object={nodes.dObj_table_storage2}
         scale={nodes.dObj_table_storage2.scale}
         translateOnAxis={nodes.dObj_table_storage2.translation}
-        rotation={nodes.dObj_table_storage2.rotation} />
+        rotation={nodes.dObj_table_storage2.rotation}
+     /* onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}*/
+         />
 
       <primitive castShadow receiveShadow object={nodes.dObj_table_storage3}
         scale={nodes.dObj_table_storage3.scale}
         translateOnAxis={nodes.dObj_table_storage3.translation}
-        rotation={nodes.dObj_table_storage3.rotation} />
+        rotation={nodes.dObj_table_storage3.rotation}
+          /* onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}*/
+        />
 
       <primitive castShadow receiveShadow object={nodes.dObj_erp}
         scale={nodes.dObj_erp.scale}
         translateOnAxis={nodes.dObj_erp.translation}
         rotation={nodes.dObj_erp.rotation}
+          /* onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}*/
       />
 
       <primitive castShadow receiveShadow object={nodes.dObj_erp2}
         scale={nodes.dObj_erp2.scale}
         translateOnAxis={nodes.dObj_erp2.translation}
         rotation={nodes.dObj_erp2.rotation}
+          /* onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}*/
       />
 
       <primitive castShadow receiveShadow object={nodes.dObj_server}
         scale={nodes.dObj_server.scale}
         translateOnAxis={nodes.dObj_server.translation}
         rotation={nodes.dObj_server.rotation}
+          /* onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}*/
       />
 
       <primitive castShadow receiveShadow object={nodes.Rectangle}
@@ -79,36 +105,54 @@ export function ModelD(props) {
         scale={nodes.one.scale}
         translateOnAxis={nodes.one.translation}
         rotation={nodes.one.rotation}
+        onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
       />
 
       <primitive castShadow receiveShadow object={nodes.oneb}
         scale={nodes.oneb.scale}
         translateOnAxis={nodes.oneb.translation}
         rotation={nodes.oneb.rotation}
+        onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
       />
 
       <primitive castShadow receiveShadow object={nodes.two}
         scale={nodes.two.scale}
         translateOnAxis={nodes.two.translation}
         rotation={nodes.two.rotation}
+        onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
       />
 
       <primitive castShadow receiveShadow object={nodes.four}
         scale={nodes.four.scale}
         translateOnAxis={nodes.four.translation}
         rotation={nodes.four.rotation}
+        onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
       />
 
       <primitive castShadow receiveShadow object={nodes.five}
         scale={nodes.five.scale}
         translateOnAxis={nodes.five.translation}
         rotation={nodes.five.rotation}
+        onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
       />
 
       <primitive castShadow receiveShadow object={nodes.eight}
         scale={nodes.eight.scale}
         translateOnAxis={nodes.eight.translation}
         rotation={nodes.eight.rotation}
+        onClick={() => console.log('clicked')}
+        onPointerOver={() => setHovered(true)}
+        onPointerOut={() => setHovered(false)}
       />
 
       <primitive castShadow receiveShadow object={nodes.MyText}
