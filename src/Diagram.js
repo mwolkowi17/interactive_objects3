@@ -11,55 +11,55 @@ export function ModelD(props) {
 
   return (
     <group ref={group} {...props} dispose={null}>
-      <primitive castShadow receiveShadow object={nodes.dObj_table_storage1}
-        scale={nodes.dObj_table_storage1.scale}
-        translateOnAxis={nodes.dObj_table_storage1.translation}
-        rotation={nodes.dObj_table_storage1.rotation}
+      <primitive castShadow receiveShadow object={nodes.obj3d_1}
+        scale={nodes.obj3d_1.scale}
+        translateOnAxis={nodes.obj3d_1.translation}
+        rotation={nodes.obj3d_1.rotation}
       /* onClick={() => console.log('clicked')}
         onPointerOver={() => setHovered(true)}
         onPointerOut={() => setHovered(false)}*/
       />
 
-      <primitive castShadow receiveShadow object={nodes.dObj_table_storage2}
-        scale={nodes.dObj_table_storage2.scale}
-        translateOnAxis={nodes.dObj_table_storage2.translation}
-        rotation={nodes.dObj_table_storage2.rotation}
+      <primitive castShadow receiveShadow object={nodes.obj3d_2}
+        scale={nodes.obj3d_2.scale}
+        translateOnAxis={nodes.obj3d_2.translation}
+        rotation={nodes.obj3d_2.rotation}
       /* onClick={() => console.log('clicked')}
          onPointerOver={() => setHovered(true)}
          onPointerOut={() => setHovered(false)}*/
       />
 
-      <primitive castShadow receiveShadow object={nodes.dObj_table_storage3}
-        scale={nodes.dObj_table_storage3.scale}
-        translateOnAxis={nodes.dObj_table_storage3.translation}
-        rotation={nodes.dObj_table_storage3.rotation}
+      <primitive castShadow receiveShadow object={nodes.obj3d_3}
+        scale={nodes.obj3d_3.scale}
+        translateOnAxis={nodes.obj3d_3.translation}
+        rotation={nodes.obj3d_3.rotation}
       /* onClick={() => console.log('clicked')}
     onPointerOver={() => setHovered(true)}
     onPointerOut={() => setHovered(false)}*/
       />
 
-      <primitive castShadow receiveShadow object={nodes.dObj_erp}
-        scale={nodes.dObj_erp.scale}
-        translateOnAxis={nodes.dObj_erp.translation}
-        rotation={nodes.dObj_erp.rotation}
+      <primitive castShadow receiveShadow object={nodes.obj3d_4}
+        scale={nodes.obj3d_4.scale}
+        translateOnAxis={nodes.obj3d_4.translation}
+        rotation={nodes.obj3d_4.rotation}
       /* onClick={() => console.log('clicked')}
     onPointerOver={() => setHovered(true)}
     onPointerOut={() => setHovered(false)}*/
       />
 
-      <primitive castShadow receiveShadow object={nodes.dObj_erp2}
-        scale={nodes.dObj_erp2.scale}
-        translateOnAxis={nodes.dObj_erp2.translation}
-        rotation={nodes.dObj_erp2.rotation}
+      <primitive castShadow receiveShadow object={nodes.obj3d_5}
+        scale={nodes.obj3d_5.scale}
+        translateOnAxis={nodes.obj3d_5.translation}
+        rotation={nodes.obj3d_5.rotation}
       /* onClick={() => console.log('clicked')}
     onPointerOver={() => setHovered(true)}
     onPointerOut={() => setHovered(false)}*/
       />
 
-      <primitive castShadow receiveShadow object={nodes.dObj_server}
-        scale={nodes.dObj_server.scale}
-        translateOnAxis={nodes.dObj_server.translation}
-        rotation={nodes.dObj_server.rotation}
+      <primitive castShadow receiveShadow object={nodes.obj3d_6}
+        scale={nodes.obj3d_6.scale}
+        translateOnAxis={nodes.obj3d_6.translation}
+        rotation={nodes.obj3d_6.rotation}
       /* onClick={() => console.log('clicked')}
     onPointerOver={() => setHovered(true)}
     onPointerOut={() => setHovered(false)}*/
@@ -71,85 +71,85 @@ export function ModelD(props) {
         rotation={nodes.Rectangle.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.Rectangle2}
-        scale={nodes.Rectangle2.scale}
-        translateOnAxis={nodes.Rectangle2.translation}
-        rotation={nodes.Rectangle2.rotation}
+      <primitive castShadow receiveShadow object={nodes.Rectangle_001}
+        scale={nodes.Rectangle_001.scale}
+        translateOnAxis={nodes.Rectangle_001.translation}
+        rotation={nodes.Rectangle_001.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.Rectangle3}
-        scale={nodes.Rectangle3.scale}
-        translateOnAxis={nodes.Rectangle3.translation}
-        rotation={nodes.Rectangle3.rotation}
+      <primitive castShadow receiveShadow object={nodes.Rectangle_002}
+        scale={nodes.Rectangle_002.scale}
+        translateOnAxis={nodes.Rectangle_002.translation}
+        rotation={nodes.Rectangle_002.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.Rectangle4}
-        scale={nodes.Rectangle4.scale}
-        translateOnAxis={nodes.Rectangle4.translation}
-        rotation={nodes.Rectangle4.rotation}
+      <primitive castShadow receiveShadow object={nodes.Rectangle_003}
+        scale={nodes.Rectangle_003.scale}
+        translateOnAxis={nodes.Rectangle_003.translation}
+        rotation={nodes.Rectangle_003.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.Rectangle5}
-        scale={nodes.Rectangle5.scale}
-        translateOnAxis={nodes.Rectangle5.translation}
-        rotation={nodes.Rectangle5.rotation}
+      <primitive castShadow receiveShadow object={nodes.Rectangle_004}
+        scale={nodes.Rectangle_004.scale}
+        translateOnAxis={nodes.Rectangle_004.translation}
+        rotation={nodes.Rectangle_004.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.Rectangle6}
-        scale={nodes.Rectangle6.scale}
-        translateOnAxis={nodes.Rectangle6.translation}
-        rotation={nodes.Rectangle6.rotation}
+      <primitive castShadow receiveShadow object={nodes.Rectangle_005}
+        scale={nodes.Rectangle_005.scale}
+        translateOnAxis={nodes.Rectangle_005.translation}
+        rotation={nodes.Rectangle_005.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.one}
-        scale={nodes.one.scale}
-        translateOnAxis={nodes.one.translation}
-        rotation={nodes.one.rotation}
+      <primitive castShadow receiveShadow object={nodes.fig_1a}
+        scale={nodes.fig_1a.scale}
+        translateOnAxis={nodes.fig_1a.translation}
+        rotation={nodes.fig_1a.rotation}
         onClick={() => console.log('clicked')}
         onPointerOver={() => setHovered(true)}
         onPointerOut={() => setHovered(false)}
       />
 
-      <primitive castShadow receiveShadow object={nodes.oneb}
-        scale={nodes.oneb.scale}
-        translateOnAxis={nodes.oneb.translation}
-        rotation={nodes.oneb.rotation}
+      <primitive castShadow receiveShadow object={nodes.fig_1b}
+        scale={nodes.fig_1b.scale}
+        translateOnAxis={nodes.fig_1b.translation}
+        rotation={nodes.fig_1b.rotation}
         onClick={() => console.log('clicked')}
         onPointerOver={() => setHovered(true)}
         onPointerOut={() => setHovered(false)}
       />
 
-      <primitive castShadow receiveShadow object={nodes.two}
-        scale={nodes.two.scale}
-        translateOnAxis={nodes.two.translation}
-        rotation={nodes.two.rotation}
+      <primitive castShadow receiveShadow object={nodes.fig_2a}
+        scale={nodes.fig_2a.scale}
+        translateOnAxis={nodes.fig_2a.translation}
+        rotation={nodes.fig_2a.rotation}
         onClick={() => console.log('clicked')}
         onPointerOver={() => setHovered(true)}
         onPointerOut={() => setHovered(false)}
       />
 
-      <primitive castShadow receiveShadow object={nodes.four}
-        scale={nodes.four.scale}
-        translateOnAxis={nodes.four.translation}
-        rotation={nodes.four.rotation}
+      <primitive castShadow receiveShadow object={nodes.fig_4a}
+        scale={nodes.fig_4a.scale}
+        translateOnAxis={nodes.fig_4a.translation}
+        rotation={nodes.fig_4a.rotation}
         onClick={() => console.log('clicked')}
         onPointerOver={() => setHovered(true)}
         onPointerOut={() => setHovered(false)}
       />
 
-      <primitive castShadow receiveShadow object={nodes.five}
-        scale={nodes.five.scale}
-        translateOnAxis={nodes.five.translation}
-        rotation={nodes.five.rotation}
+      <primitive castShadow receiveShadow object={nodes.fig_5a}
+        scale={nodes.fig_5a.scale}
+        translateOnAxis={nodes.fig_5a.translation}
+        rotation={nodes.fig_5a.rotation}
         onClick={() => console.log('clicked')}
         onPointerOver={() => setHovered(true)}
         onPointerOut={() => setHovered(false)}
       />
 
-      <primitive castShadow receiveShadow object={nodes.eight}
-        scale={nodes.eight.scale}
-        translateOnAxis={nodes.eight.translation}
-        rotation={nodes.eight.rotation}
+      <primitive castShadow receiveShadow object={nodes.fig_8a}
+        scale={nodes.fig_8a.scale}
+        translateOnAxis={nodes.fig_8a.translation}
+        rotation={nodes.fig_8a.rotation}
         onClick={() => console.log('clicked')}
         onPointerOver={() => setHovered(true)}
         onPointerOut={() => setHovered(false)}
@@ -161,64 +161,64 @@ export function ModelD(props) {
         rotation={nodes.MyText.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.MyText1}
-        scale={nodes.MyText1.scale}
-        translateOnAxis={nodes.MyText1.translation}
-        rotation={nodes.MyText1.rotation}
+      <primitive castShadow receiveShadow object={nodes.MyText_001}
+        scale={nodes.MyText_001.scale}
+        translateOnAxis={nodes.MyText_001.translation}
+        rotation={nodes.MyText_001.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.MyText2}
-        scale={nodes.MyText2.scale}
-        translateOnAxis={nodes.MyText2.translation}
-        rotation={nodes.MyText2.rotation}
+      <primitive castShadow receiveShadow object={nodes.MyText_002}
+        scale={nodes.MyText_002.scale}
+        translateOnAxis={nodes.MyText_002.translation}
+        rotation={nodes.MyText_002.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.MyText3}
-        scale={nodes.MyText3.scale}
-        translateOnAxis={nodes.MyText3.translation}
-        rotation={nodes.MyText3.rotation}
+      <primitive castShadow receiveShadow object={nodes.MyText_003}
+        scale={nodes.MyText_003.scale}
+        translateOnAxis={nodes.MyText_003.translation}
+        rotation={nodes.MyText_003.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.MyText4}
-        scale={nodes.MyText4.scale}
-        translateOnAxis={nodes.MyText4.translation}
-        rotation={nodes.MyText4.rotation}
+      <primitive castShadow receiveShadow object={nodes.MyText_004}
+        scale={nodes.MyText_004.scale}
+        translateOnAxis={nodes.MyText_004.translation}
+        rotation={nodes.MyText_004.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.MyText5}
-        scale={nodes.MyText5.scale}
-        translateOnAxis={nodes.MyText5.translation}
-        rotation={nodes.MyText5.rotation}
+      <primitive castShadow receiveShadow object={nodes.MyText_005}
+        scale={nodes.MyText_005.scale}
+        translateOnAxis={nodes.MyText_005.translation}
+        rotation={nodes.MyText_005.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.MyText6}
-        scale={nodes.MyText6.scale}
-        translateOnAxis={nodes.MyText6.translation}
-        rotation={nodes.MyText6.rotation}
+      <primitive castShadow receiveShadow object={nodes.MyText_006}
+        scale={nodes.MyText_006.scale}
+        translateOnAxis={nodes.MyText_006.translation}
+        rotation={nodes.MyText_006.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.MyText7}
-        scale={nodes.MyText7.scale}
-        translateOnAxis={nodes.MyText7.translation}
-        rotation={nodes.MyText7.rotation}
+      <primitive castShadow receiveShadow object={nodes.MyText_007}
+        scale={nodes.MyText_007.scale}
+        translateOnAxis={nodes.MyText_007.translation}
+        rotation={nodes.MyText_007.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.MyText8}
-        scale={nodes.MyText8.scale}
-        translateOnAxis={nodes.MyText8.translation}
-        rotation={nodes.MyText8.rotation}
+      <primitive castShadow receiveShadow object={nodes.MyText_008}
+        scale={nodes.MyText_008.scale}
+        translateOnAxis={nodes.MyText_008.translation}
+        rotation={nodes.MyText_008.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.Arrow1}
-        scale={nodes.Arrow1.scale}
-        translateOnAxis={nodes.Arrow1.translation}
-        rotation={nodes.Arrow1.rotation}
+      <primitive castShadow receiveShadow object={nodes.Arrow_1}
+        scale={nodes.Arrow_1.scale}
+        translateOnAxis={nodes.Arrow_1.translation}
+        rotation={nodes.Arrow_1.rotation}
       />
 
-      <primitive castShadow receiveShadow object={nodes.Arrow2}
-        scale={nodes.Arrow2.scale}
-        translateOnAxis={nodes.Arrow2.translation}
-        rotation={nodes.Arrow2.rotation}
+      <primitive castShadow receiveShadow object={nodes.Arrow_2}
+        scale={nodes.Arrow_2.scale}
+        translateOnAxis={nodes.Arrow_2.translation}
+        rotation={nodes.Arrow_2.rotation}
       />
 
       <primitive castShadow receiveShadow object={nodes.canvas_plane_1}
