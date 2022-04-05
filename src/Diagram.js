@@ -11,10 +11,10 @@ export function ModelD(props) {
 
   return (
     <group ref={group} {...props} dispose={null}>
-      <primitive castShadow receiveShadow object={nodes.Obj_table_storage1}
-        scale={nodes.Obj_table_storage1.scale}
-        translateOnAxis={nodes.Obj_table_storage1.translation}
-        rotation={nodes.Obj_table_storage1.rotation}
+      <primitive castShadow receiveShadow object={nodes.dObj_table_storage1}
+        scale={nodes.dObj_table_storage1.scale}
+        translateOnAxis={nodes.dObj_table_storage1.translation}
+        rotation={nodes.dObj_table_storage1.rotation}
       /* onClick={() => console.log('clicked')}
         onPointerOver={() => setHovered(true)}
         onPointerOut={() => setHovered(false)}*/
