@@ -24,45 +24,45 @@ export function ModelD(props) {
         scale={nodes.dObj_table_storage2.scale}
         translateOnAxis={nodes.dObj_table_storage2.translation}
         rotation={nodes.dObj_table_storage2.rotation}
-     /* onClick={() => console.log('clicked')}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}*/
-         />
+      /* onClick={() => console.log('clicked')}
+         onPointerOver={() => setHovered(true)}
+         onPointerOut={() => setHovered(false)}*/
+      />
 
       <primitive castShadow receiveShadow object={nodes.dObj_table_storage3}
         scale={nodes.dObj_table_storage3.scale}
         translateOnAxis={nodes.dObj_table_storage3.translation}
         rotation={nodes.dObj_table_storage3.rotation}
-          /* onClick={() => console.log('clicked')}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}*/
-        />
+      /* onClick={() => console.log('clicked')}
+    onPointerOver={() => setHovered(true)}
+    onPointerOut={() => setHovered(false)}*/
+      />
 
       <primitive castShadow receiveShadow object={nodes.dObj_erp}
         scale={nodes.dObj_erp.scale}
         translateOnAxis={nodes.dObj_erp.translation}
         rotation={nodes.dObj_erp.rotation}
-          /* onClick={() => console.log('clicked')}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}*/
+      /* onClick={() => console.log('clicked')}
+    onPointerOver={() => setHovered(true)}
+    onPointerOut={() => setHovered(false)}*/
       />
 
       <primitive castShadow receiveShadow object={nodes.dObj_erp2}
         scale={nodes.dObj_erp2.scale}
         translateOnAxis={nodes.dObj_erp2.translation}
         rotation={nodes.dObj_erp2.rotation}
-          /* onClick={() => console.log('clicked')}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}*/
+      /* onClick={() => console.log('clicked')}
+    onPointerOver={() => setHovered(true)}
+    onPointerOut={() => setHovered(false)}*/
       />
 
       <primitive castShadow receiveShadow object={nodes.dObj_server}
         scale={nodes.dObj_server.scale}
         translateOnAxis={nodes.dObj_server.translation}
         rotation={nodes.dObj_server.rotation}
-          /* onClick={() => console.log('clicked')}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}*/
+      /* onClick={() => console.log('clicked')}
+    onPointerOver={() => setHovered(true)}
+    onPointerOut={() => setHovered(false)}*/
       />
 
       <primitive castShadow receiveShadow object={nodes.Rectangle}
@@ -219,6 +219,24 @@ export function ModelD(props) {
         scale={nodes.Arrow2.scale}
         translateOnAxis={nodes.Arrow2.translation}
         rotation={nodes.Arrow2.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.canvas_plane_1}
+        scale={nodes.canvas_plane_1.scale}
+        translateOnAxis={nodes.canvas_plane_1.translation}
+        rotation={nodes.canvas_plane_1.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.canvas_plane_2}
+        scale={nodes.canvas_plane_2.scale}
+        translateOnAxis={nodes.canvas_plane_2.translation}
+        rotation={nodes.canvas_plane_2.rotation}
+      />
+
+      <primitive castShadow receiveShadow object={nodes.canvas_plane_3}
+        scale={nodes.canvas_plane_3.scale}
+        translateOnAxis={nodes.canvas_plane_3.translation}
+        rotation={nodes.canvas_plane_3.rotation}
       />
 
 
